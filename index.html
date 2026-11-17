@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Информационная страница о порядке обращения, доступных регионах и направлениях службы по контракту.">
+  <title>Информация о службе по контракту</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">А</span><span>ИНФОРМАЦИОННЫЙ ЦЕНТР<small>Служба по контракту</small></span></a>
+  <a class="top-contact" id="headerTelegram" href="#" target="_blank" rel="noopener">Связаться</a>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">КОНСУЛЬТАЦИЯ И ИНФОРМАЦИЯ</p>
+      <h1>Служба по контракту:<br><span>условия и порядок обращения</span></h1>
+      <p class="lead">Информация о направлениях, регионах и порядке получения консультации. Условия и доступность необходимо подтвердить до принятия решения.</p>
+      <div class="hero-actions"><a class="button primary" id="heroTelegram" href="#" target="_blank" rel="noopener">Задать вопрос в Telegram</a><a class="button secondary" href="#regions">Посмотреть регионы</a></div>
+      <p class="notice">Решение о заключении контракта принимайте только после изучения официальных документов, обязанностей, рисков и правовых последствий.</p>
+    </div>
+    <div class="hero-panel">
+      <div class="panel-label">КОНТАКТ ДЛЯ КОНСУЛЬТАЦИИ</div>
+      <div class="panel-title" id="contactName">Ваш консультант</div>
+      <p>Уточните действующие условия, список документов и наличие подходящих вакансий.</p>
+      <a id="panelTelegram" class="panel-link" href="#" target="_blank" rel="noopener">Открыть Telegram ↗</a>
+    </div>
+  </section>
+
+  <section class="section" id="terms">
+    <div class="section-heading"><p class="eyebrow">ВАЖНО ПЕРЕД ОБРАЩЕНИЕМ</p><h2>Условия и выплаты</h2></div>
+    <div class="info-grid">
+      <article class="info-card"><span class="card-icon">₽</span><h3>Выплаты</h3><p id="paymentsText">Размеры выплат и денежного довольствия уточняются по официальным источникам на дату обращения.</p></article>
+      <article class="info-card"><span class="card-icon">✓</span><h3>Требования</h3><p id="requirementsText">Требования к кандидатам, медицинские критерии и ограничения необходимо уточнить у уполномоченного органа.</p></article>
+      <article class="info-card"><span class="card-icon">▤</span><h3>Порядок оформления</h3><p id="processText">Попросите предоставить полный перечень этапов, документов, условий контракта и сроков до принятия решения.</p></article>
+    </div>
+    <p class="small-note">Суммы, сроки и льготы не публикуются как гарантированные: они могут зависеть от региона, должности, даты и действующих нормативных актов.</p>
+  </section>
+
+  <section class="section dark-section" id="regions">
+    <div class="section-heading"><p class="eyebrow">ГЕОГРАФИЯ</p><h2>Регионы обращения</h2><p>Список регионов и статус доступности публикуются после подтверждения актуальности.</p></div>
+    <div class="tile-grid" id="regionsList"><div class="empty-state">Список регионов будет добавлен после подтверждения.</div></div>
+  </section>
+
+  <section class="section" id="positions">
+    <div class="section-heading"><p class="eyebrow">НАПРАВЛЕНИЯ</p><h2>Должности и специальности</h2><p>Фактическое наличие должностей и требования к ним уточняются индивидуально и официально.</p></div>
+    <div class="tile-grid positions-grid" id="positionsList"><div class="empty-state">Список должностей будет добавлен после подтверждения.</div></div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div><p class="eyebrow">ОБРАТНАЯ СВЯЗЬ</p><h2>Остались вопросы?</h2><p>Свяжитесь для получения информации и проверки действующих условий.</p></div>
+    <a class="button light" id="bottomTelegram" href="#" target="_blank" rel="noopener">Написать в Telegram ↗</a>
+  </section>
+</main>
+<footer><span>© <span id="year"></span> Информационная страница</span><span>Проверяйте условия по официальным источникам до принятия решения.</span></footer>
+<script src="data.js"></script><script src="site.js"></script>
+</body></html>
